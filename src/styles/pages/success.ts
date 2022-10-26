@@ -10,6 +10,7 @@ export const SuccessContainer = styled('main', {
   height: 656,
 
   h1: {
+    marginBottom: '4rem',
     fontSize: '$2xl',
     color: '$gray100',
   },
@@ -37,14 +38,18 @@ export const SuccessContainer = styled('main', {
   }
 })
 
+export const ImagesContainer = styled('div', {
+  display: 'flex',
+  marginLeft: '65px'
+})
+
 export const ImageContainer = styled('div', {
-  width: '100%',
-  maxWidth: 130,
-  height: 145,
+  width: 135,
+  height: 130,
   background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
-  borderRadius: 8,
+  borderRadius: 1000,
   padding: '0.25rem',
-  marginTop: '4rem',
+  marginLeft: '-65px',
 
   display: 'flex',
   alignItems: 'center',

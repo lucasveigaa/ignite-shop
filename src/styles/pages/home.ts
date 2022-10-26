@@ -62,3 +62,27 @@ export const Product = styled('div', {
   }
 
 })
+
+export const ContainerFooterDescription = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '0.5rem'
+})
+
+export const ContainerFooterImage = styled('button', {
+  width: '56px',
+  height: '56px',
+  background: '$green500',
+  borderRadius: 6,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  cursor: 'pointer',
+
+  border: 0,
+
+
+  '&:hover': {
+    background: '$green300'
+  }
+})

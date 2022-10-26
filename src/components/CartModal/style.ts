@@ -6,7 +6,7 @@ export const Content = styled(Dialog.Content, {
   width: '30rem',
   right: 0,
   top: 0,
-  height: '100vh',
+  minHeight: '100vh',
   backgroundColor: '$gray800',
   padding: '0 3rem',
 })
@@ -20,8 +20,8 @@ export const Overlay = styled(Dialog.Overlay, {
 
 export const Title = styled(Dialog.Title, {
   fontSize: '1.25rem',
-  paddingTop: '4.5rem',
-  marginBottom: '2rem'
+  paddingTop: '1rem',
+  marginBottom: '1rem'
 })
 
 export const CloseButton = styled(Dialog.Close, {
@@ -92,14 +92,15 @@ export const ContainerContent = styled('div', {
 })
 
 export const Footer = styled('footer', {
-  marginTop: '2rem',
+  position: 'absolute',
   display: 'flex',
   flexDirection: 'column',
-  width: '100%',
+  width: '30rem',
   bottom: '1rem',
+  left: '3rem',
 
   button: {
-    marginTop: '2rem',
+    marginTop: '1rem',
     padding: '1.25rem 0',
     background: '$green500',
     border: 0,
